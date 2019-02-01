@@ -5,6 +5,7 @@ pipeline {
             steps {
                 // 
 		echo " I am build"
+		sh 'wait 20'
             }
         }
         stage('Test') { 
